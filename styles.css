@@ -83,6 +83,22 @@
   .video-channel-name:hover{
       color: #111;
   }
-  video-channel-name, .video-metadata {
+ .video-channel-name, .video-metadata {
   color: #555;
+  }
+  .video-section-title {
+      grid-column: 1/-1;
+      margin: -.5rem 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 .5rem;
+  }
+  .video-section-title-close {
+      border:none;
+      background: none;
+      padding: 0;
+      font-size: 2rem;
+      color:#555;
+      cursor: pointer;
   }
