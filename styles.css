@@ -188,3 +188,9 @@
       height: 36px;
       background-color: #aaa;
   }
+  sup
+  {
+      padding-left: 10px;
+      text-decoration: none;
+      font:1rem;
+  }
